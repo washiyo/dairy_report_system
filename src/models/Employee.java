@@ -22,7 +22,7 @@ import javax.persistence.Table;
             query = "SELECT COUNT(e) FROM Employee AS e"
             ),
     @NamedQuery(
-            name = "checkRegistredCode",
+            name = "checkRegisteredCode",
             query = "SELECT COUNT(e) FROM Employee AS e WHERE e.code = :code"
             ),
     @NamedQuery(
@@ -118,7 +118,7 @@ public class Employee {
         return delete_flag;
     }
 
-    public void setDeleted_flag(Integer deleted_flag) {
+    public void setDeleted_flag(Integer delete_flag) {
         this.delete_flag = delete_flag;
     }
 }
