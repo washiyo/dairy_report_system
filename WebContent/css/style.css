@@ -2,7 +2,7 @@
 
 body {
     color: #333333;
-    font-family: "Hiragino Kaku Cothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
 }
 
 #header {
@@ -19,7 +19,7 @@ body {
 
 h1 {
     font-size: 24px;
-    display: inline;
+    display: inline
 }
 
 h2 {
@@ -47,12 +47,12 @@ table, tr, th, td {
 }
 
 table {
-    width: 26%;
+    width: 100%;
     table-layout: fixed;
 }
 
 th {
-    width: 66%;
+    width: 26%;
     padding: 10px 2%;
 }
 
